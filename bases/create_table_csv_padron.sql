@@ -1,4 +1,4 @@
-CREATE TABLE public.padron_establecimientos (
+CREATE TABLE public.dea_local_padron (
     id SERIAL PRIMARY KEY
     juris character varying(20) NOT NULL,
     sector character varying(10),
