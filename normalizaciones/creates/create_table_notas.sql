@@ -6,7 +6,6 @@ CREATE TABLE
         id_dni_alumno integer,
         id_anio_lectivo smallint,
         plan_id character varying(10),
-        nota INTEGER NOT NULL,
         anio_cursa smallint,
         id_materia_nro smallint,
         trimestre1 smallint[],

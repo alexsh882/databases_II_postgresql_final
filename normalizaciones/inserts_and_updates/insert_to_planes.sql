@@ -4,6 +4,6 @@ SELECT
     _id,
     carrera,
     fplan,
-    anios
+    anios::smallint
 from
     dea_local_planes
