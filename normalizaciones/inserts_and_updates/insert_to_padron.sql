@@ -9,8 +9,7 @@ INSERT INTO
         domicilio,
         cod_postal,
         telefono,
-        mail,
-        "cod_depart"
+        mail
     )
 SELECT
     id,
@@ -22,7 +21,6 @@ SELECT
     domicilio,
     cod_postal,
     telefono,
-    mail,
-    cod_depar
+    mail
 FROM
     public.dea_local_padron

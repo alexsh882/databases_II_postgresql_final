@@ -2,7 +2,7 @@ DROP TABLE IF EXISTS public.alumnos;
 
 CREATE TABLE
     public.alumnos (
-        _id integer,
+        _id integer PRIMARY KEY,
         apellido character varying(50),
         nombre character varying(50),
         sexo character varying(2),

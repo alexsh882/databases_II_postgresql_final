@@ -2,7 +2,8 @@ DROP TABLE IF EXISTS public.alumnos_domicilio;
 
 CREATE TABLE
     public.alumnos_domicilio (
-        alumnos_id integer,        
+        id SERIAL PRIMARY KEY,
+        alumno_id integer,        
         barrio character varying(100),
         calle character varying(100),
         numero character varying(100),
