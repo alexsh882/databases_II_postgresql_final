@@ -2,7 +2,8 @@ DROP TABLE IF EXISTS public.dea_local_padron;
 
 CREATE TABLE
     public.dea_local_padron (
-        id SERIAL PRIMARY KEY juris character varying(20) NOT NULL,
+        id SERIAL PRIMARY KEY,
+        juris character varying(20) NOT NULL,
         sector character varying(10),
         ambito character varying(10),
         departamento character varying(20),
