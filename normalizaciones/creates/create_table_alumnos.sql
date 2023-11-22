@@ -7,5 +7,6 @@ CREATE TABLE
         nombre character varying(50),
         sexo character varying(2),
         nacionalidad character varying(20),
-        fecha_nacim character varying(25)
+        fecha_nacim character varying(25),
+        pasodegrado character varying(1)
     )

@@ -6,6 +6,7 @@ SELECT
     nombre,
     sexo,
     nacionalidad,
-    fecha_nacim
+    fecha_nacim,
+    pasodegrado
 FROM
     dea_local_alumnos
