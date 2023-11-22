@@ -1,8 +1,8 @@
-ALTER TABLE alumno_oferta_plan ADD CONSTRAINT alumno_oferta_plan_fk FOREIGN KEY (alumno_id) REFERENCES alumnos (_id);
+ALTER TABLE alumno_oferta_plan ADD CONSTRAINT alumno_oferta_plan_fk FOREIGN KEY (alumnos_id) REFERENCES alumnos (_id);
 
 ALTER TABLE alumno_oferta_plan ADD CONSTRAINT padron_alumno_oferta_plan_fk FOREIGN KEY (cue) REFERENCES padron (cueanexo);
 
-ALTER TABLE alumnos_domicilio ADD CONSTRAINT alumnos_domicilio_fk FOREIGN KEY (alumno_id) REFERENCES alumnos (_id);
+ALTER TABLE alumnos_domicilio ADD CONSTRAINT alumnos_domicilio_fk FOREIGN KEY (alumnos_id) REFERENCES alumnos (_id);
 
 ALTER TABLE localidades ADD CONSTRAINT localidad_departamento_fk FOREIGN KEY (cod_depar) REFERENCES departamentos (cod_depar);
 

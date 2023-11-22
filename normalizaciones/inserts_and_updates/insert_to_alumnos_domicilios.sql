@@ -1,6 +1,6 @@
 INSERT INTO
     alumnos_domicilio (
-        alumno_id,
+        alumnos_id,
         barrio,
         calle,
         numero,
